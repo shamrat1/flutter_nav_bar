@@ -113,7 +113,7 @@ class _HomeState extends State<Home> {
                                   borderRadius: BorderRadius.circular(5),
                                   color: currentIndex == 1 ? Colors.blue : Colors.grey,
                               ),
-                              child: Text('4',
+                              child: Text(currentIndex.toString(),
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontWeight: FontWeight.bold
@@ -161,7 +161,7 @@ class _HomeState extends State<Home> {
                                   borderRadius: BorderRadius.circular(5),
                                   color: currentIndex == 2 ? Colors.red : Colors.grey,
                               ),
-                              child: Text('4',
+                              child: Text((currentIndex + 1).toString(),
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontWeight: FontWeight.bold
